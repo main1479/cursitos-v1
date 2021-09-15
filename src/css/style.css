@@ -1089,17 +1089,21 @@ table {
 .nav {
   padding: 2rem 0;
   position: absolute;
-  top: 0;
+  top: -100px;
   left: 0;
   width: 100%;
-  transition: all 0.5s cubic-bezier(0.33333, 0, 0.66667, 0.33333);
+  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333);
   z-index: 5;
   background: #ffffff;
+  transform: translateY(100%);
 }
 .nav.sticky {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
   position: fixed;
   padding: 1rem 0;
+  top: 0;
+  transform: translateY(0);
+  transition: top 0.5s cubic-bezier(0.33333, 0, 0.66667, 0.33333);
 }
 .nav__container {
   display: flex;
