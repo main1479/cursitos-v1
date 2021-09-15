@@ -35,7 +35,6 @@ body a:hover {
 }
 
 .container {
-  width: 95%;
   max-width: 1240px;
 }
 
@@ -1228,7 +1227,6 @@ table {
   padding-bottom: 8rem;
 }
 .included .container {
-  width: 95%;
   max-width: 100rem;
 }
 .included__card {
